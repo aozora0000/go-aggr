@@ -22,7 +22,6 @@ func main() {
 		log.Fatalln(err.Error())
 		os.Exit(1)
 	}
-
 }
 
 func convert(path string) error {
